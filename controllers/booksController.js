@@ -1,5 +1,7 @@
 const Book = require('../models/Books');
 
+// Defining all methods and business logic for routes
+
 module.exports = {
 	findAll: function(req, res) {
 		Book.find(req.query)
